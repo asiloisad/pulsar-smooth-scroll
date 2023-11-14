@@ -17,6 +17,8 @@
 
 A package redefine a scroll animation for mouse wheel and added a commands to scroll text-editor by keyboard.
 
+A package is compatible with [keep-focus](https://github.com/bacadra/pulsar-keep-focus) package.
+
 ## Installation
 
 To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.dev/packages/smooth-scroll) in the Install pane of the Pulsar settings or run `ppm install smooth-scroll`.
