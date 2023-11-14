@@ -1,0 +1,5 @@
+'atom-text-editor':
+  'pageup'      : 'smooth-scroll:page-up'
+  'pagedown'    : 'smooth-scroll:page-down'
+  'alt-pageup'  : 'smooth-scroll:line-up'
+  'alt-pagedown': 'smooth-scroll:line-down'
