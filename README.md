@@ -15,15 +15,15 @@
   </a>
 </p>
 
-A package redefine a scroll animation for mouse wheel and added a commands to scroll text-editor by keyboard.
+![demo](https://github.com/bacadra/pulsar-smooth-scroll/blob/master/assets/demo.gif?raw=true)
 
-A package is compatible with [keep-focus](https://github.com/bacadra/pulsar-keep-focus) package.
+A package redefine a scroll animation for mouse wheel and added a commands to scroll text-editor by keyboard.
 
 ## Installation
 
 To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.dev/packages/smooth-scroll) in the Install pane of the Pulsar settings or run `ppm install smooth-scroll`.
 
-Alternatively, run `ppm install bacadra/pulsar-smooth-scroll` to install a package directly from Github repository.
+Alternatively, you can run `ppm install bacadra/pulsar-smooth-scroll` to install a package directly from the Github repository.
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
