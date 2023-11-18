@@ -19,6 +19,13 @@
 
 A package redefine a scroll animation for mouse wheel and added a commands to scroll text-editor by keyboard.
 
+* `MouseWheel`: vertical page scrolling
+* `Alt-MouseWheel`: fast vertical page scrolling
+* `Shift-MouseWheel`: horizontal page scrolling
+* `Alt-Shift-MouseWheel`: fast horizontal page scrolling
+* `PageUp/PageDown`: vertical page scrolling by keyboard
+* `Alt-PageUp/PageDown`: slow vertical page scrolling by keyboard
+
 ## Installation
 
 To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.dev/packages/smooth-scroll) in the Install pane of the Pulsar settings or run `ppm install smooth-scroll`.
