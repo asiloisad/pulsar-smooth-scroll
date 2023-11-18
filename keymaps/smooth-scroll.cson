@@ -1,4 +1,4 @@
-'atom-text-editor':
+'atom-text-editor:not([mini])':
   'pageup'      : 'smooth-scroll:page-up'
   'pagedown'    : 'smooth-scroll:page-down'
   'alt-pageup'  : 'smooth-scroll:line-up'
