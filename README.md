@@ -19,12 +19,12 @@
 
 A package redefine a scroll animation for mouse wheel and added a commands to scroll text-editor by keyboard.
 
-* `MouseWheel`: vertical page scrolling
-* `Alt-MouseWheel`: fast vertical page scrolling
-* `Shift-MouseWheel`: horizontal page scrolling
-* `Alt-Shift-MouseWheel`: fast horizontal page scrolling
-* `PageUp/PageDown`: vertical page scrolling by keyboard
-* `Alt-PageUp/PageDown`: slow vertical page scrolling by keyboard
+* `MouseWheel`: normal vertical page scrolling
+* `Alt-MouseWheel`: alternative vertical page scrolling
+* `Shift-MouseWheel`: normal horizontal page scrolling
+* `Alt-Shift-MouseWheel`: alternative horizontal page scrolling
+* `PageUp/PageDown`: normal vertical page scrolling by keyboard
+* `Alt-PageUp/PageDown`: alternative vertical page scrolling by keyboard
 
 ## Installation
 
