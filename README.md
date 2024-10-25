@@ -10,17 +10,20 @@ To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.de
 
 ## Commands
 
-Scrolling the editor with the mouse:
+Scrolling text-editor by mouse wheel:
 
 - `MouseWheel`: vertical page scrolling
 - `Alt-MouseWheel`: vertical page scrolling (alternative)
 - `Shift-MouseWheel`: horizontal page scrolling
 - `Alt-Shift-MouseWheel`: horizontal page scrolling (alternative)
 
-Scrolling the editor with the keyboard:
+In `atom-text-editor:not([mini])` there are available commands:
 
-- `Alt-PageUp/PageDown`: vertical line scrolling by keyboard
-- `Ctrl-Alt-PageUp/PageDown`: increase/decrease step factor of keyboard scrolling
+- `smooth-scroll:scroll-up`: (default `Alt-PageUp`) scroll current text-editor up
+- `smooth-scroll:scroll-down`: (default `Alt-PageDown`) scroll current text-editor down
+- `smooth-scroll:increase-step`: (default `Ctrl-Alt-PageUp`) increase scroll step of `scroll-up`
+- `smooth-scroll:decrease-step`: (default `Ctrl-Alt-PageDown`) decrease scroll step of `scroll-down`
+- `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor
 
 # Contributing
 
