@@ -21,8 +21,8 @@ In `atom-text-editor:not([mini])` there are available commands:
 
 - `smooth-scroll:scroll-up`: (default `Alt-PageUp`) scroll current text-editor up
 - `smooth-scroll:scroll-down`: (default `Alt-PageDown`) scroll current text-editor down
-- `smooth-scroll:increase-step`: (default `Ctrl-Alt-PageUp`) increase scroll step of `scroll-up`
-- `smooth-scroll:decrease-step`: (default `Ctrl-Alt-PageDown`) decrease scroll step of `scroll-down`
+- `smooth-scroll:increase-step`: (default `Shift-Alt-PageUp`) increase scroll step of `scroll-up`
+- `smooth-scroll:decrease-step`: (default `Shift-Alt-PageDown`) decrease scroll step of `scroll-down`
 - `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor
 
 # Contributing
