@@ -1,5 +1,7 @@
 {
+  "name": "smooth-scroll",
   "description": "Smooth scroll of text-editor by mouse & keybord",
+  "repository": "https://github.com/bacadra/pulsar-smooth-scroll",
   "keywords": [
     "bacadra",
     "smooth",
@@ -7,14 +9,10 @@
     "mouse",
     "keyboard"
   ],
+  "version": "1.7.0",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "main": "./lib/main",
-  "name": "smooth-scroll",
-  "homepage": "https://github.com/bacadra/pulsar-smooth-scroll",
-  "url": "https://github.com/bacadra/pulsar-smooth-scroll",
-  "repository": "https://github.com/bacadra/pulsar-smooth-scroll",
-  "version": "1.7.0",
-  "license": "MIT"
+  "main": "./lib/main"
 }
