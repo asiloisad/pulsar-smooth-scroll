@@ -2,11 +2,11 @@
 
 Smooth scroll of text-editor by mouse & keybord. It's provided via `requestAnimationFrame` instead of CSS. Alternative scroll mode (different speed) and horizontal scroll mode included.
 
-![demo](https://github.com/bacadra/pulsar-smooth-scroll/blob/master/assets/demo.gif?raw=true)
+![demo](https://github.com/asiloisad/pulsar-smooth-scroll/blob/master/assets/demo.gif?raw=true)
 
 ## Installation
 
-To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.dev/packages/smooth-scroll) in the Install pane of the Pulsar settings or run `ppm install smooth-scroll`. Alternatively, you can run `ppm install bacadra/pulsar-smooth-scroll` to install a package directly from the Github repository.
+To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.dev/packages/smooth-scroll) in the Install pane of the Pulsar settings or run `ppm install smooth-scroll`. Alternatively, you can run `ppm install asiloisad/pulsar-smooth-scroll` to install a package directly from the Github repository.
 
 ## Commands
 
