@@ -13,5 +13,57 @@
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "main": "./lib/main"
+  "main": "./lib/main",
+  "configSchema": {
+    "wheelDir": {
+      "order": 1,
+      "title": "Mouse wheel scroll direction",
+      "type": "integer",
+      "enum": [
+        { "value": 1, "description": "Normal" },
+        { "value": -1, "description": "Reverse" }
+      ],
+      "default": 1
+    },
+    "wheelDiv": {
+      "order": 2,
+      "title": "Mouse wheel smooth divider",
+      "type": "number",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 7
+    },
+    "wheelPos": {
+      "order": 3,
+      "title": "Mouse wheel step factor",
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 10,
+      "default": 1
+    },
+    "wheelAlt": {
+      "order": 4,
+      "title": "Mouse wheel alternative step factor",
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 10,
+      "default": 5
+    },
+    "scrollDiv": {
+      "order": 5,
+      "title": "Scroll command smooth divider",
+      "type": "number",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 20
+    },
+    "scrollPos": {
+      "order": 6,
+      "title": "Scroll command step factor",
+      "type": "number",
+      "minimum": 0.03125,
+      "maximum": 32,
+      "default": 1
+    }
+  }
 }
