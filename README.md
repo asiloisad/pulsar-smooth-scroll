@@ -20,9 +20,11 @@ Scrolling text-editor by mouse wheel:
 In `atom-text-editor:not([mini])` there are available commands:
 
 - `smooth-scroll:scroll-up`: (default `Alt-PageUp`) scroll current text-editor up
+- `smooth-scroll:scroll-up-all`: scroll all pane-active text-editor up
 - `smooth-scroll:scroll-down`: (default `Alt-PageDown`) scroll current text-editor down
-- `smooth-scroll:increase-step`: (default `Shift-Alt-PageUp`) increase scroll step of `scroll-up`
-- `smooth-scroll:decrease-step`: (default `Shift-Alt-PageDown`) decrease scroll step of `scroll-down`
+- `smooth-scroll:scroll-down-all`: scroll all pane-active text-editor down
+- `smooth-scroll:increase-step`: (default `Alt-Shift-PageUp`) increase scroll step of `scroll-up` and `scroll-up-all`
+- `smooth-scroll:decrease-step`: (default `Alt-Shift-PageDown`) decrease scroll step of `scroll-down` and `scroll-down-all`
 - `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor
 
 # Contributing

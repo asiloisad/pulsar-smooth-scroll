@@ -1,5 +1,5 @@
 'atom-text-editor:not([mini])':
-  'shift-alt-pageup'  : 'smooth-scroll:increase-step'
-  'shift-alt-pagedown': 'smooth-scroll:decrease-step'
   'alt-pageup'  : 'smooth-scroll:scroll-up'
   'alt-pagedown': 'smooth-scroll:scroll-down'
+  'alt-shift-pageup'  : 'smooth-scroll:increase-step'
+  'alt-shift-pagedown': 'smooth-scroll:decrease-step'
