@@ -8,7 +8,7 @@
     "mouse",
     "keyboard"
   ],
-  "version": "1.7.5",
+  "version": "1.8.0",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
