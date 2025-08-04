@@ -10,12 +10,11 @@ To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.de
 
 ## Commands
 
-Scrolling text-editor by mouse wheel:
+Scrolling text-editor is done by mouse wheel. Modifiers can be used:
 
-- `MouseWheel`: vertical page scrolling
-- `Alt-MouseWheel`: vertical page scrolling (alternative)
-- `Shift-MouseWheel`: horizontal page scrolling
-- `Alt-Shift-MouseWheel`: horizontal page scrolling (alternative)
+- `Ctrl`: scroll all visible text editors,
+- `Alt`: use alternative speed setting,
+- `Shift`: change scroll to horizontal direction.
 
 In `atom-text-editor:not([mini])` there are available commands:
 

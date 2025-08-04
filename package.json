@@ -31,8 +31,29 @@
       ],
       "default": 1
     },
-    "wheelDiv": {
+    "ctrlMode": {
       "order": 2,
+      "title": "State of target modifier",
+      "description": "Use `Ctrl` to scroll all visible text editors",
+      "type": "boolean",
+      "default": true
+    },
+    "altMode": {
+      "order": 3,
+      "title": "State of speed modifier",
+      "description": "Use `Alt` to use alternative speed setting",
+      "type": "boolean",
+      "default": true
+    },
+    "shiftMode": {
+      "order": 4,
+      "title": "State of direction modifier",
+      "description": "Use `Shift` to change scroll to horizontal direction",
+      "type": "boolean",
+      "default": true
+    },
+    "wheelDiv": {
+      "order": 5,
       "title": "Mouse wheel smooth divider",
       "type": "number",
       "minimum": 1,
@@ -40,7 +61,7 @@
       "default": 7
     },
     "wheelPos": {
-      "order": 3,
+      "order": 6,
       "title": "Mouse wheel step factor",
       "type": "number",
       "minimum": 0.1,
@@ -48,7 +69,7 @@
       "default": 1
     },
     "wheelAlt": {
-      "order": 4,
+      "order": 7,
       "title": "Mouse wheel alternative step factor",
       "type": "number",
       "minimum": 0.1,
@@ -56,7 +77,7 @@
       "default": 5
     },
     "scrollDiv": {
-      "order": 5,
+      "order": 8,
       "title": "Scroll command smooth divider",
       "type": "number",
       "minimum": 1,
@@ -64,7 +85,7 @@
       "default": 20
     },
     "scrollPos": {
-      "order": 6,
+      "order": 9,
       "title": "Scroll command step factor",
       "type": "number",
       "minimum": 0.03125,
