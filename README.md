@@ -1,8 +1,16 @@
 # smooth-scroll
 
-Smooth scroll of text-editor by mouse & keybord. It's provided via `requestAnimationFrame` instead of CSS. Alternative scroll mode (different speed) and horizontal scroll mode included.
+Smooth scrolling for text editors via mouse and keyboard. Uses `requestAnimationFrame` for butter-smooth animations with alternative speed and horizontal scroll modes.
 
 ![demo](https://github.com/asiloisad/pulsar-smooth-scroll/blob/master/assets/demo.gif?raw=true)
+
+## Features
+
+- **Smooth animation**: Uses `requestAnimationFrame` instead of CSS.
+- **Mouse wheel**: Scroll with configurable modifiers.
+- **Keyboard scrolling**: PageUp/PageDown with customizable step.
+- **Multi-editor sync**: Scroll all visible editors with Ctrl.
+- **Horizontal scroll**: Hold Shift to scroll horizontally.
 
 ## Installation
 
@@ -16,16 +24,16 @@ Scrolling text-editor is done by mouse wheel. Modifiers can be used:
 - `Alt`: use alternative speed setting,
 - `Shift`: change scroll to horizontal direction.
 
-In `atom-text-editor:not([mini])` there are available commands:
+Commands available in `atom-text-editor:not([mini])`:
 
-- `smooth-scroll:scroll-up`: (default `Alt-PageUp`) scroll current text-editor up
-- `smooth-scroll:scroll-up-all`: scroll all pane-active text-editor up
-- `smooth-scroll:scroll-down`: (default `Alt-PageDown`) scroll current text-editor down
-- `smooth-scroll:scroll-down-all`: scroll all pane-active text-editor down
-- `smooth-scroll:increase-step`: (default `Alt-Shift-PageUp`) increase scroll step of `scroll-up` and `scroll-up-all`
-- `smooth-scroll:decrease-step`: (default `Alt-Shift-PageDown`) decrease scroll step of `scroll-down` and `scroll-down-all`
-- `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor
+- `smooth-scroll:scroll-up`: (`Alt+PageUp`) scroll current text-editor up,
+- `smooth-scroll:scroll-up-all`: scroll all pane-active text-editor up,
+- `smooth-scroll:scroll-down`: (`Alt+PageDown`) scroll current text-editor down,
+- `smooth-scroll:scroll-down-all`: scroll all pane-active text-editor down,
+- `smooth-scroll:increase-step`: (`Alt+Shift+PageUp`) increase scroll step of `scroll-up` and `scroll-up-all`,
+- `smooth-scroll:decrease-step`: (`Alt+Shift+PageDown`) decrease scroll step of `scroll-down` and `scroll-down-all`,
+- `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor.
 
-# Contributing
+## Contributing
 
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
