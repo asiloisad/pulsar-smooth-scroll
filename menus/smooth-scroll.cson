@@ -1,0 +1,20 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Smooth Scroll'
+        submenu: [
+          { label: 'Scroll Up', command: 'smooth-scroll:scroll-up' }
+          { label: 'Scroll Down', command: 'smooth-scroll:scroll-down' }
+          { label: 'Scroll Up All', command: 'smooth-scroll:scroll-up-all' }
+          { label: 'Scroll Down All', command: 'smooth-scroll:scroll-down-all' }
+          { label: 'Scroll to Cursor', command: 'smooth-scroll:scroll-to-cursor' }
+          { type: 'separator' }
+          { label: 'Increase Step', command: 'smooth-scroll:increase-step' }
+          { label: 'Decrease Step', command: 'smooth-scroll:decrease-step' }
+        ]
+      }
+    ]
+  }
+]
