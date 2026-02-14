@@ -1,6 +1,6 @@
 {
   "name": "smooth-scroll",
-  "description": "Smooth scroll of text-editor by mouse & keybord",
+  "description": "Smooth scrolling for text editors via mouse and keyboard",
   "repository": "https://github.com/asiloisad/pulsar-smooth-scroll",
   "keywords": [
     "smooth",
