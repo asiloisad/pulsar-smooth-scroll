@@ -9,8 +9,8 @@ Smooth scrolling for text editors via mouse and keyboard. Uses `requestAnimation
 - **Smooth animation**: Uses `requestAnimationFrame` instead of CSS.
 - **Mouse wheel**: Scroll with configurable modifiers.
 - **Keyboard scrolling**: PageUp/PageDown with customizable step.
-- **Multi-editor sync**: Scroll all visible editors with Ctrl.
-- **Horizontal scroll**: Hold Shift to scroll horizontally.
+- **Multi-editor sync**: Scroll all visible editors.
+- **Horizontal scroll**: Hold modifier to scroll horizontally.
 
 ## Installation
 
@@ -20,18 +20,18 @@ To install `smooth-scroll` search for [smooth-scroll](https://web.pulsar-edit.de
 
 Scrolling text-editor is done by mouse wheel. Modifiers can be used:
 
-- `Ctrl`: scroll all visible text editors,
-- `Alt`: use alternative speed setting,
-- `Shift`: change scroll to horizontal direction.
+- Use <kbd>Ctrl</kbd> to scroll all visible text editors,
+- Use <kbd>Alt</kbd> to use alternative speed setting,
+- Use <kbd>Shift</kbd> to change scroll to horizontal direction.
 
 Commands available in `atom-text-editor:not([mini])`:
 
-- `smooth-scroll:scroll-up`: (`Alt+PageUp`) scroll current text-editor up,
+- `smooth-scroll:scroll-up`: <kbd>Alt+PageUp</kbd> scroll current text-editor up,
 - `smooth-scroll:scroll-up-all`: scroll all pane-active text-editor up,
-- `smooth-scroll:scroll-down`: (`Alt+PageDown`) scroll current text-editor down,
+- `smooth-scroll:scroll-down`: <kbd>Alt+PageDown</kbd> scroll current text-editor down,
 - `smooth-scroll:scroll-down-all`: scroll all pane-active text-editor down,
-- `smooth-scroll:increase-step`: (`Alt+Shift+PageUp`) increase scroll step of `scroll-up` and `scroll-up-all`,
-- `smooth-scroll:decrease-step`: (`Alt+Shift+PageDown`) decrease scroll step of `scroll-down` and `scroll-down-all`,
+- `smooth-scroll:increase-step`: <kbd>Alt+Shift+PageUp</kbd> increase scroll step of `scroll-up` and `scroll-up-all`,
+- `smooth-scroll:decrease-step`: <kbd>Alt+Shift+PageDown</kbd> decrease scroll step of `scroll-down` and `scroll-down-all`,
 - `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor.
 
 ## Contributing
