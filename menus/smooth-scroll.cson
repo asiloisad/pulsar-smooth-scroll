@@ -11,8 +11,8 @@
           { label: 'Scroll Down All', command: 'smooth-scroll:scroll-down-all' }
           { label: 'Scroll to Cursor', command: 'smooth-scroll:scroll-to-cursor' }
           { type: 'separator' }
-          { label: 'Increase Step', command: 'smooth-scroll:increase-step' }
-          { label: 'Decrease Step', command: 'smooth-scroll:decrease-step' }
+          { label: 'Increase Command Distance', command: 'smooth-scroll:increase-command-distance' }
+          { label: 'Decrease Command Distance', command: 'smooth-scroll:decrease-command-distance' }
         ]
       }
     ]

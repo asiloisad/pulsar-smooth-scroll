@@ -1,5 +1,5 @@
 'atom-text-editor:not([mini])':
   'alt-pageup'  : 'smooth-scroll:scroll-up'
   'alt-pagedown': 'smooth-scroll:scroll-down'
-  'alt-shift-pageup'  : 'smooth-scroll:increase-step'
-  'alt-shift-pagedown': 'smooth-scroll:decrease-step'
+  'alt-shift-pageup'  : 'smooth-scroll:increase-command-distance'
+  'alt-shift-pagedown': 'smooth-scroll:decrease-command-distance'
