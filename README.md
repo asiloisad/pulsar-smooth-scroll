@@ -1,12 +1,12 @@
 # smooth-scroll
 
-Smooth scrolling for text editors via mouse and keyboard. Uses `requestAnimationFrame` with time-based target scrolling for smooth animations with alternative speed and horizontal scroll modes.
+Smooth scrolling for text editors via mouse and keyboard. Uses `requestAnimationFrame` with time-based target scrolling for smooth animations with alternative speed and horizontal scroll modes. A legacy divider-based scroll computation mode is also available.
 
 ![demo](https://github.com/asiloisad/pulsar-smooth-scroll/blob/master/assets/demo.gif?raw=true)
 
 ## Features
 
-- **Smooth animation**: Uses time-based target scrolling instead of CSS.
+- **Smooth animation**: Uses time-based target scrolling instead of CSS, with an optional legacy divider mode.
 - **Mouse wheel**: Scroll with configurable modifiers.
 - **Keyboard scrolling**: PageUp/PageDown with customizable distance.
 - **Multi-editor sync**: Scroll all visible editors.
@@ -36,7 +36,14 @@ Commands available in `atom-text-editor:not([mini])`:
 
 ## Tuning
 
-Use `wheelSmoothness` and `commandSmoothness` to tune animation feel. Lower values catch the target faster. Higher values create a longer easing tail.
+Use `scrollComputation` to choose the animation math:
+
+- `time-based`: frame-rate independent target scrolling. This is the default.
+- `divider`: legacy frame-based divider scrolling for users who prefer the older feel.
+
+Use `wheelSmoothness` and `commandSmoothness` to tune animation feel. In `time-based` mode, lower values catch the target faster and higher values create a longer easing tail. In `divider` mode, these values are used as the legacy frame divider.
+
+Set `scrollComputation` to `divider` and the relevant smoothness value to `1` to use Pulsar's native scroll step while keeping this package's modifier behavior, such as Ctrl multi-editor scroll, Alt multiplier, Shift horizontal scroll, and reverse direction.
 
 Use `wheelMultiplier`, `altWheelMultiplier`, and `commandDistance` to tune scroll distance. These settings change how far the target moves, not how long the animation takes.
 
