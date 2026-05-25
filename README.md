@@ -26,12 +26,12 @@ Scrolling text-editor is done by mouse wheel. Modifiers can be used:
 
 Commands available in `atom-text-editor:not([mini])`:
 
-- `smooth-scroll:scroll-up`: <kbd>Alt+PageUp</kbd> scroll current text-editor up,
+- `smooth-scroll:scroll-up`: scroll current text-editor up,
 - `smooth-scroll:scroll-up-all`: scroll all pane-active text-editor up,
-- `smooth-scroll:scroll-down`: <kbd>Alt+PageDown</kbd> scroll current text-editor down,
+- `smooth-scroll:scroll-down`: scroll current text-editor down,
 - `smooth-scroll:scroll-down-all`: scroll all pane-active text-editor down,
-- `smooth-scroll:increase-command-distance`: <kbd>Alt+Shift+PageUp</kbd> increase keyboard scroll distance,
-- `smooth-scroll:decrease-command-distance`: <kbd>Alt+Shift+PageDown</kbd> decrease keyboard scroll distance,
+- `smooth-scroll:increase-command-distance`: increase keyboard scroll distance,
+- `smooth-scroll:decrease-command-distance`: decrease keyboard scroll distance,
 - `smooth-scroll:scroll-to-cursor`: scroll current text-editor to last added cursor.
 
 ## Tuning
